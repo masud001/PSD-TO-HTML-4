@@ -1,0 +1,77 @@
+
+#contact-area{
+    position: relative;
+    margin-bottom: 185px;
+}
+.contact-bg{
+}
+.contact-bg::before{
+    content: "";
+    position: absolute;
+
+    top: 4%;
+    background-image: url(../img/banner/line.png);
+    width: 250px;
+    height: 75px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    transform: translate(0%, 2%);  
+}
+.contact-area-bg{
+    position: absolute;
+
+    height: 100%;
+    background-image: url(../img/banner/banner-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    right: 0;
+    margin-top: 100px;
+}
+.contact-area-wrapper{
+    padding: 30px 30px;
+    border: 2px solid $primary;
+    background-color: $white;
+    position: relative;
+}
+.contact-content-form{
+    color: $primary;
+    position: relative;
+}
+.contact-content-form h2{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    
+}
+.contact-content-form p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+.contact-content-form form{}
+.contact-content-form form input:focus{
+    color: $primary !important;
+    background-color: $white !important;
+    border-color: $primary !important;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.0rem transparent !important;
+    box-shadow: 0 0 0 0.0rem transparent !important;
+}
+.contact-content-form form input{
+    margin-bottom: 15px;
+    border-radius: 0;
+    outline: 0;
+    border: 1px solid $primary;
+}
+.contact-content-form form button{
+    background-color: $body-color;
+    border-radius: 30px;
+    border: 0px;
+    color:$white;
+    font-size: 20px;
+}

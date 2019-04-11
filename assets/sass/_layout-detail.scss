@@ -1,0 +1,37 @@
+
+
+#layout-detail{
+    margin-bottom: 85px;
+}
+.laout-detail-wrapper-line-bg{
+    position: relative;
+}
+.laout-detail-wrapper-line-bg::after{
+    content: "";
+    position: absolute;
+    top: -28px;
+    background-size: cover;
+    background-color: transparent;
+    background-image: url(../img/banner/line.png);
+    width: 300px;
+    height: 160px;
+}
+
+.laout-detail-content{
+    color: $primary;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 15px;
+}
+.laout-detail-content img{}
+.laout-detail-content h2{
+    font-weight: 700;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.laout-detail-content p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+}

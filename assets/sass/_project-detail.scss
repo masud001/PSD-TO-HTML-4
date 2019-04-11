@@ -1,0 +1,82 @@
+
+#project-detail-area{
+    margin-bottom:85px;
+}
+#project-detail-area, 
+table{
+    color:$primary !important;
+}
+.project-detail-right .table tr td{
+    border: 0 !important;
+}
+.project-detail-right .table tr td:first-child{
+    font-weight: 700;
+}
+#project-detail-area h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    display: inline-block;
+    position: relative;
+}
+.project-detail-right-content h2{
+    position: relative;
+}
+.project-detail-right-content h2::before{
+    width: 65%;
+    height: 3px;
+    background-color: $body-color;
+    bottom: -8px;
+    left: 0;
+    position: absolute;
+    content: "";
+}
+#project-detail-area span{
+    color: #cfcfcf;
+    font-size: 28px !important;
+    margin-left: 35px;
+
+}
+#project-detail-area p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+#project-detail-area{}
+#project-detail-area{}
+#project-detail-area{}
+.project-detail-left-wrapper{
+    position: relative;
+    top: 90px;
+}
+.project-detail-left-wrapper::after{
+    content: "";
+    position: absolute;
+    height: 200px;
+    background-color: transparent;
+    background-image: url(../img/banner/zigzag.png);
+    top: -60px;
+    left: 0px;
+    z-index: 1;
+    background-size: cover;
+}
+.project-detail-left{
+    padding:60px;
+    border:2px solid $primary;
+    position: relative;
+    top: -19px;
+    z-index: 2;
+    background-color: $white;
+}
+
+.project-detail-right{
+    padding:60px;
+    border-top:2px solid $primary;
+    border-left:2px solid $primary;
+    border-bottom:2px solid $primary;
+    
+}
+.project-detail-right-content{
+    position: relative;
+}

@@ -1,0 +1,37 @@
+
+
+#site-plane-chart-area{
+    margin-top: -60px;
+    position: relative;
+    margin-bottom: 85px;
+}
+.site-plane-chart{
+    padding: 100px 70px;
+    border:2px solid $primary;
+    background-color: $white;
+}
+.site-plane-chart{
+    display: grid;
+    grid-column-gap: 1.5rem;
+}
+
+.single-chart {
+    margin-bottom: 50px;
+}
+.single-chart p{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.single-chart ol{}
+.single-chart ol li{
+    color: $primary;
+}
+.single-chart ol li a{
+    color: $primary;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0px;
+    display: block;
+    text-decoration: none;
+}

@@ -1,0 +1,81 @@
+
+#flore-plane-area{
+    position: relative;
+    height: 100%;
+    margin-bottom: 180px;
+}
+.flore-plane-bg{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    background-image: url(../img/flor-plane/flore-plane-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    transform: translate(0%, -50%);
+    z-index: 2;
+}
+.flore-plane-bg::after{
+    content: "";
+    position: absolute;
+    width: 245px;
+
+    background-image: url(../img/banner/zigzag.png);
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: -1;
+}
+.flore-plane-wrapper{
+    border:2px solid $primary;
+    background-color: $white;
+    position: relative;
+    z-index: 3;
+}
+.flore-plane-content{}
+.flore-plane-content h2{
+    color: $primary;
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 700;
+ }
+.flore-plane-content p{
+    color: $primary;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+ }
+ .flore-plane-content.bottom-text {
+    position: absolute; 
+}
+.single-flore-plane{
+    margin-bottom: 15px;
+}
+.single-flore-plane img{
+    margin-bottom: 15px;
+
+}
+.single-flore-plane p{
+    color: $primary;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#all-flore-plane .row{
+    margin-bottom: 25px;
+}
+.gallary-headding::after {
+    left: 0%;
+}
+.load-more-btn{}
+.load-more-btn a{}
+.load-more-btn a button{
+    border: 0;
+    background-color: $body-color;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 500;
+    outline: 0;
+    color:$white;
+    border-radius: 30px;
+}

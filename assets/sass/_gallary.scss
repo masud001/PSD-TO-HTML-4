@@ -1,0 +1,44 @@
+
+#gallary-area{
+  margin-bottom: 85px;
+}
+.gallary-headding{
+    margin-bottom: 50px;
+    position: relative;
+    
+}
+.gallary-headding::after{
+  position: absolute;
+  content: "";
+  top: -50%;
+  width: 300px;
+  height: 200px;
+  background-color: transparent;
+  background-image: url(../img/line/floor-plane-line-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.gallary-headding h2{
+    display: inline-block;
+    padding: 10px 50px;
+    color: $primary;
+    font-weight: 700;
+    font-size: 40px;
+    border: 2px solid $primary;
+    background-color: $white;
+    position: relative;
+    z-index: 2;
+}
+.gallary-item{
+    line-height: 0;
+    -webkit-column-gap:   25px;
+    -moz-column-gap:      25px;
+    column-gap:           25px; 
+
+}
+.gallary-item img{
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,398 @@
+@media (min-width: 320px){
+    .line-bg::after {
+        right: -15px;
+        width: 300px;
+    }
+    .banner-content span p{
+        font-size: 14px;
+    }
+    .banner-content p{
+        font-size: 25px;
+    }
+    .banner-content h2{
+        font-size: 35px;
+    }
+    .banner-content-wrapper{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .project-detail-left-wrapper::after{
+        width: 290px;
+    }
+    .lication-line-bg::after {
+        top: unset;
+        right: -15px;
+        bottom: -27px;
+    }
+    .site-map-bg {
+        width: 90%;
+        height: 500px;
+        background-size: cover;
+    }
+    .site-plane-header-bg::after{
+        left: -15px;
+        top: -15px;
+        z-index: -2;
+        width: 25%;
+    }
+    .site-plane-content {
+        margin-top: 450px;
+        margin-bottom: 60px;
+    }
+    .development-area-bg::before{
+        right: -15px;
+    }
+    .flore-plane-content h2{
+        font-size: 35px;
+    }
+    .flore-plane-bg {
+        height: 500px;
+        top: 35%;
+        width: 100%;
+    }
+    #all-flore-plane{
+        margin-bottom: 85px;
+        margin-top: 400px;
+    }
+    .flore-plane-bg::after {
+        right: 0px;
+        bottom: -50px;
+        bottom: -405px;
+        height: 155px;
+        background-size: contain;
+        transform: translate(0%, -8%);
+    }
+    .flore-plane-wrapper {
+        margin-top: 460px;
+        padding: 50px 15px;
+    }
+    .flore-plane-content.bottom-text {
+        top: 30px;
+    }
+    .footer-item-wrapper::after{
+        left: 86px;
+    }
+    .gallary-headding::after{
+        left: 0%;
+        width: 150px;
+    }
+    .gallary-item{
+        -webkit-column-count: 2;
+        -moz-column-count:    2;
+        column-count:         2;
+    }
+    .contact-area-bg {
+        width: 100%;
+    }
+    .contact-bg::before {
+        left: -7%;
+        height: 300px;
+        top: -7%;
+    }
+
+}
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .line-bg::after{
+        right: -15px;
+        width: 327px
+    }
+    .banner-content-wrapper{
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .banner-content h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .video-container h2{
+        font-size: 40px;
+    }
+    .project-detail-left-wrapper::after{
+        width: 320px;
+    }
+    .development-area-bg::before{
+        right: -25px;
+    }
+    .flore-plane-bg{
+        height: 500px;
+        top: 35%;
+        width: 100%;
+    }
+    .flore-plane-wrapper{
+        margin-top: 460px;
+        padding: 100px 55px;
+    }
+    .flore-plane-bg::after {
+        right: 0px;
+        bottom: -50px;
+        bottom: -405px;
+        height: 155px;
+        background-size: contain;
+    }
+    #all-flore-plane{
+        margin-bottom: 85px;
+        margin-top: unset;
+    }
+    .project-detail-right{
+        margin-top: 60px;
+    }
+    .lication-line-bg::after{
+        top: unset;
+        right: -15px;
+        bottom:-27px;
+    }
+    .site-plane-header-bg::after{
+        left: -15px;
+        top: -45px;
+        z-index: -2;
+        width: 25%;
+    }
+    .site-map-bg{
+        width: 90%;
+        height: 500px;
+        background-size: cover;
+
+    }
+    .site-plane-chart{
+        grid-template-columns: auto auto;
+    }
+    .site-plane-content{
+        margin-top: 450px;
+        margin-bottom: 60px;
+    }
+    .flore-plane-content.bottom-text {
+        top: unset;
+    }
+    .development-bg{
+        width: 100%;
+        height: 56%;
+        background-position: 50% 64%;;
+    }
+    .development-area-bg{
+        top:230px;
+    }
+    #gallary-area{
+        margin-top: 300px;
+    }
+    .gallary-headding::after{
+        left: 0%;
+        width: 300px;
+    }
+    .gallary-item{
+        -webkit-column-count: 2;
+        -moz-column-count:    2;
+        column-count:         2;
+    }
+    .contact-area-bg{
+        width: 100%;
+    }
+    .contact-bg::before{
+        left: -7%;
+        height: 300px;
+        top: -7%;
+    }
+    .footer-item-wrapper::after{
+        left: 202px;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    #navbarNav ul li a{
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    .line-bg::after{
+        right: -44px;
+    }
+    .footer-item-wrapper::after{
+        left: 70px;
+    }
+
+    .project-detail-left-wrapper{
+        left: 0px;
+    }
+    .project-detail-left{
+        left: 0px;
+    }
+    .project-detail-right{
+        border-right:2px solid $primary;
+        
+    }
+    .project-detail-right-content{
+        left: 0px;
+    }
+    .laout-detail-wrapper-line-bg::after{
+        left: -15px;
+    }
+
+    
+    .site-plane-wrapper{
+        margin: 0px 0px;
+    }
+    .site-plane-header{
+        top: -25px;
+        height: 833px;
+    }
+    .site-plane-content{
+        margin-top: -295px;
+        margin-bottom: 75px;
+    }
+    .site-plane-chart{
+        grid-template-columns: auto auto auto;
+    }
+    .site-map-bg{
+        width: 90%;
+        background-size: cover;
+    }
+    .flore-plane-bg{
+        height: 500px;
+        top: 35%;
+        width: 66%;
+    }
+    .flore-plane-wrapper{
+        margin-top: 60px;
+        padding: 100px 55px;
+    }
+    .flore-plane-bg::after{
+        top: unset;
+        right: -3%;
+        bottom: -52px;
+        height: 52px;
+        transform: translate(-50%);
+    }
+    .flore-plane-content.bottom-text{
+        bottom: -155px;
+    }
+
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .banner-content span p{
+        font-size: 20px;
+    }
+    #navbarNav ul li a{
+        font-size: 20px;
+        padding: 10px 26px;
+    }
+    .banner-content-wrapper{
+        padding-top: 100px;
+        padding-bottom: 88px;
+        padding-left: 72px;
+        padding-right: 72px;
+    }
+    .banner-content h2 {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+    .project-detail-left-wrapper{
+        left: 60px;
+    }
+    .project-detail-right{
+        border-right:0px solid transparent;
+        margin-top: unset;
+    }
+    .project-detail-left{
+        
+    left: 35px;
+    }
+    .project-detail-right-content{
+        left: 60px;
+    }
+    .laout-detail-wrapper-line-bg::after{
+        left: -34px;
+    }
+    .lication-line-bg::after{
+        top: -27px;
+        right: -31px;
+        bottom:unset;
+    }
+    .site-plane-wrapper{
+        margin: 170px 0px;
+    }
+    .site-plane-header{
+        top: 120px;
+        height: 100%;
+    }
+    .site-plane-header-bg::after{
+        width: 50%;
+    left: -60px;
+    top: 0;
+    }
+    .site-plane-content{
+        margin-top: 300px;
+    }
+    #all-flore-plane{
+        margin-bottom: 85px;
+        margin-top: unset;
+    }
+    .flore-plane-wrapper{
+        margin-top: 0px;
+        padding: 100px 55px;
+    }
+    .site-map-bg{
+        width: 63%;
+        height:100%;
+        background-size: contain;
+    }
+    .flore-plane-bg{
+        height: 500px;
+        top: 50%;
+        width: 66%;
+    }
+    .flore-plane-bg::after{
+        top: -52px;
+        right: 0px;
+        bottom: unset;
+        height: 52px;
+        transform: translate(0%);
+        background-size: cover;
+    }
+    .flore-plane-content.bottom-text{
+        bottom: -100px;
+    }
+    .development-bg{
+        width: 50%;
+        height: 100%;
+        background-position: center center;
+    }
+    .development-area-bg{
+        top:unset;
+    }
+    #gallary-area{
+        margin-top: unset;
+    }
+    .gallary-headding::after{
+        left: 50%;
+    }
+    .gallary-item{
+        -webkit-column-count: 3;
+        -moz-column-count:    3;
+        column-count:         3;
+    }
+    .contact-area-bg{
+        width: 80%;
+    }
+    .contact-bg::before{
+        right: -57%;
+        height: 75px;
+        top: 4%;
+        left: unset;
+    }
+    .footer-item-wrapper::after {
+        // left: 128px;
+    }
+
+ }

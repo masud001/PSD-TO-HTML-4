@@ -1,0 +1,57 @@
+
+
+#footer-area{
+    border-top: 2px solid $primary;
+    border-bottom: 2px solid $primary;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 25px;
+}
+.footer-item-wrapper{position: relative;}
+.footer-item-wrapper::after{
+    position: absolute;
+    content: "";
+    top: -22px;
+    
+    width: 200px;
+    height: 127px;
+    background-image: url(../img/banner/zigzagzag.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.footer-item{
+    display: inline-block;
+    padding: 25px 35px;
+    border: 2px solid $primary;
+    color: $primary;
+    background-color: $white;
+    position: relative;
+    z-index: 2;
+}
+.footer-item h2{
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+.footer-item p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.footer-bottom{
+    color: $primary;
+}
+.footer-bottom p{
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.footer-bottom h5{
+    font-weight: 500;
+    font-size: 20px;
+}

@@ -1,0 +1,27 @@
+
+
+
+#navbarNav{}
+#navbarNav ul{}
+#navbarNav ul li{}
+#navbarNav ul li:last-child{
+    margin-right: 0px;
+
+}
+#navbarNav ul li:last-child a{
+    color: $white;
+    font-weight: 700;
+    background-color:$body-color;
+    border-radius: 30px;
+}
+#navbarNav ul li a{
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: $primary;
+    
+}
+#navbarNav ul li a:hover{
+    text-decoration: none;
+}

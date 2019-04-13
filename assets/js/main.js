@@ -1,11 +1,12 @@
 $(document).ready(function(){
     // owl carousel plugine start here
     // -------------------------------
-    $(".owl-carousel").owlCarousel({
+    $(".banner-content-wrapper").owlCarousel({
         loop:true,
         margin:10,
         nav:true,
-        dots: false,
+        dots: true,
+        dotsData:true,
         center: true,
         navText: ["<i class='fas fa-caret-left'></i>","<i class='fas fa-caret-right'></i>"],
         responsive:{
@@ -26,18 +27,20 @@ $(document).ready(function(){
 
 
 
-    
-    // window.onscroll = function() {myFunction()};
-    // var navbar = document.getElementById("header");
-    // var sticky = navbar.offsetTop;
+// Add smooth scrolling to all links
+// -----------------------------------
 
-    // function myFunction() {
-    // if (window.pageYOffset >= sticky) {
-    //     navbar.classList.add("sticky")
-    // } else {
-    //     navbar.classList.remove("sticky");
-    // }
-    // };
+$("a.nav-link").on('click', function(event){
+    if(this.hash !== ""){
+        event.preventDefault();
+        var hash = this.hash;
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top + 75
+        },800, function(){
+            window.location.hash = hash;
+        });
+    }
+});
 
 
 

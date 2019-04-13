@@ -18,8 +18,30 @@
         padding-left: 15px;
         padding-right: 15px;
     }
+    .banner-content-wrapper div.owl-nav {
+        width: 100%;
+        left: 50%;
+        bottom: -89px;
+    }
+    .banner-content-wrapper div.owl-dots {
+        width: 79%;
+        left: 50%;
+        bottom: -95px;
+    }
+    .project-detail-right-content{
+        top:20px;
+    }
     .project-detail-left-wrapper::after{
         width: 290px;
+    }
+    .project-detail-left{
+        padding:15px;
+    }
+    .project-detail-right{
+        padding: 60px 15px;
+    }
+    .project-detail-right-content ul li a{
+        font-size: 20px !important;
     }
     .lication-line-bg::after {
         top: unset;
@@ -108,6 +130,16 @@
         padding-left: 45px;
         padding-right: 45px;
     }
+    .banner-content-wrapper div.owl-nav {
+        width: 100%;
+        left: 50%;
+        bottom: -89px;
+    }
+    .banner-content-wrapper div.owl-dots{
+        width: 85%;
+        left: 50%;
+        bottom: -89px;
+    }
     .banner-content h2 {
         font-size: 40px;
         margin-bottom: 30px;
@@ -115,8 +147,20 @@
     .video-container h2{
         font-size: 40px;
     }
+    .project-detail-left{
+        padding:60px;
+    }
+    .project-detail-right{
+        padding: 60px 15px;
+    }
+    .project-detail-right-content{
+        top:0px;
+    }
     .project-detail-left-wrapper::after{
         width: 320px;
+    }
+    .project-detail-right-content ul li a{
+        font-size: 28px !important;
     }
     .development-area-bg::before{
         right: -25px;
@@ -212,6 +256,16 @@
     }
     .line-bg::after{
         right: -44px;
+    }
+    .banner-content-wrapper div.owl-nav {
+        width: 200%;
+        left: 0;
+        bottom: -89px;
+    }
+    .banner-content-wrapper div.owl-dots{
+        width: 150%;
+        left: 0;
+        bottom: -89px;
     }
     .footer-item-wrapper::after{
         left: 70px;
@@ -309,7 +363,8 @@
     left: 35px;
     }
     .project-detail-right-content{
-        left: 60px;
+        left: 30px;
+        margin-left: 40px;
     }
     .laout-detail-wrapper-line-bg::after{
         left: -34px;

@@ -18,7 +18,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
+html{
+    // scroll-behavior: smooth;
+}
 /* make sure to set some focus styles for accessibility */
 :focus {
     outline: 0;

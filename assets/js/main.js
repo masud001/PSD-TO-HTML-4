@@ -30,7 +30,7 @@ $(document).ready(function(){
 // Add smooth scrolling to all links
 // -----------------------------------
 
-$("a.nav-link").on('click', function(event){
+$("#navbarNav a.nav-link").on('click', function(event){
     if(this.hash !== ""){
         event.preventDefault();
         var hash = this.hash;

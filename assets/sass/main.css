@@ -11120,6 +11120,7 @@ textarea {
 
 #project-detail-area {
   margin-bottom: 85px;
+  padding-top: 150px;
 }
 
 #project-detail-area,
@@ -11270,6 +11271,7 @@ table {
 #location {
   color: #0e0e0e;
   margin-bottom: 85px;
+  padding-top: 150px;
 }
 
 #location h2 {
@@ -11315,6 +11317,7 @@ table {
 
 #site-plane {
   position: relative;
+  padding-top: 150px;
 }
 
 .site-map-bg {
@@ -11423,6 +11426,7 @@ table {
   position: relative;
   height: 100%;
   margin-bottom: 180px;
+  padding-top: 150px;
 }
 
 .flore-plane-bg {
@@ -11509,7 +11513,7 @@ table {
 
 #development-area {
   position: relative;
-  padding-top: 50px;
+  padding-top: 150px;
   padding-bottom: 75px;
   margin-bottom: 85px;
 }
@@ -11622,6 +11626,7 @@ table {
 #contact-area {
   position: relative;
   margin-bottom: 185px;
+  padding-top: 150px;
 }
 
 .contact-bg::before {
@@ -12180,6 +12185,7 @@ table {
   }
   #gallary-area {
     margin-top: unset;
+    padding-top: 150px;
   }
   .gallary-headding::after {
     left: 50%;

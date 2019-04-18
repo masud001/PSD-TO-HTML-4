@@ -1,11 +1,11 @@
 $(document).ready(function(){
     // owl carousel plugine start here
     // -------------------------------
-    $(".banner-content-wrapper").owlCarousel({
+    $(".text-slider").owlCarousel({
         loop:true,
         margin:10,
         nav:true,
-        dots: true,
+        dots: false,
         dotsData:true,
         center: true,
         navText: ["<i class='fas fa-caret-left'></i>","<i class='fas fa-caret-right'></i>"],

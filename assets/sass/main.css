@@ -10951,7 +10951,7 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("../img/banner/banner-bg.jpg");
-  margin-bottom: 150px;
+  margin-bottom: 74px;
 }
 
 .banner-content-wrapper {
@@ -11011,37 +11011,16 @@ textarea {
   border-radius: 30px;
 }
 
-.banner-content-wrapper div.owl-nav {
+.text-slider div.owl-nav {
   position: absolute;
+  top: 0px;
   padding: 10px;
-  -webkit-transform: translate(-50%);
-  transform: translate(-50%);
   height: 50px;
-}
-
-.banner-content-wrapper div.owl-dots {
-  position: absolute;
-  padding: 10px;
-  -webkit-transform: translate(-50%);
-  transform: translate(-50%);
-}
-
-.banner-content-wrapper div.owl-dots .owl-dot {
-  display: none;
-}
-
-.banner-content-wrapper div.owl-dots .owl-dot.active {
-  display: inline-block;
-  -webkit-transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  color: #00b1b3 !important;
-  font-weight: 600;
-}
-
-.banner-content-wrapper div.owl-dots .owl-dot span {
   width: 100%;
-  height: auto;
-  background-color: transparent !important;
+}
+
+.text-slider .owl-stage-outer {
+  top: 10px !important;
 }
 
 .banner-bottom {
@@ -11060,12 +11039,12 @@ textarea {
   color: #0e0e0e;
 }
 
-.banner-content-wrapper .owl-nav {
+.text-slider .owl-nav {
   margin-top: 0px !important;
   border: 1px solid #000;
 }
 
-.banner-content-wrapper .owl-nav button {
+.text-slider .owl-nav button {
   color: #00b1b3 !important;
   font-size: 30px !important;
   height: 40px;
@@ -11079,12 +11058,12 @@ textarea {
   outline: 0;
 }
 
-.banner-content-wrapper .owl-nav button.owl-next {
+.text-slider .owl-nav button.owl-next {
   left: auto;
   right: -5px;
 }
 
-.banner-content-wrapper .owl-nav [class*='owl-']:hover {
+.text-slider .owl-nav [class*='owl-']:hover {
   background-color: transparent;
 }
 
